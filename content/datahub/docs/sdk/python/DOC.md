@@ -444,7 +444,7 @@ column_results = client.lineage.get_lineage(
 )
 ```
 
-See `references/lineage.md` for datajob lineage, cross-entity lineage, and advanced patterns.
+See `references/lineage.md` for Data Job lineage, cross-entity lineage, and advanced patterns.
 
 ## Data Quality Assertions (DataHub Cloud)
 
@@ -523,7 +523,6 @@ DataHub identifies every entity with a URN (Uniform Resource Name) — a globall
 | Dashboard | `urn:li:dashboard:({platform},{id})` | BI dashboards (Looker, Tableau, PowerBI, etc.) |
 | Chart | `urn:li:chart:({platform},{id})` | Individual visualizations or tiles within a dashboard |
 | Domain | `urn:li:domain:{id}` | Business domain for organizing assets (e.g. Finance, Marketing) |
-| Data Product | `urn:li:dataProduct:{id}` | A curated collection of datasets exposed as a product |
 | Glossary term | `urn:li:glossaryTerm:{name}` | Standardized business vocabulary (e.g. PII, Revenue, Customer) |
 | Tag | `urn:li:tag:{name}` | Lightweight labels for classification (e.g. critical, deprecated) |
 | Document | `urn:li:document:{id}` | Knowledge content: tutorials, runbooks, FAQs, or external doc references |
