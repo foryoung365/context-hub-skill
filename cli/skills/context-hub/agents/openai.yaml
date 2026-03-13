@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Hub"
+  short_description: "Fetch current docs and skills with Context Hub"
+  default_prompt: "Use $context-hub to fetch the right Context Hub docs or skills before writing integration code."
